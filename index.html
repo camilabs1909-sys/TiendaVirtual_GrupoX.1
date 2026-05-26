@@ -1,0 +1,47 @@
+# 1. Configurar nombre y correo (solo una vez)
+
+git config --global user.name "Tu Nombre Completo"
+
+git config --global user.email "tu.correo@ejemplo.com"
+
+
+# 2. Crear carpeta del proyecto
+
+mkdir TiendaVirtual_GrupoX
+
+cd TiendaVirtual_GrupoX
+
+
+# 3. Inicializar repositorio local
+
+git init
+
+
+# 4. Crear archivo README.md
+
+echo "# Tienda Virtual - Proyecto POO" > README.md
+
+echo "Integrantes: [Nombre1], [Nombre2]" >> README.md
+
+
+# 5. Agregar y hacer primer commit
+
+git add README.md
+
+git commit -m "Primer commit: crea README"
+
+
+# 6. Crear repositorio en GitHub (desde el navegador)
+
+# - Nuevo repositorio: "TiendaVirtual_GrupoX"
+
+# - NO inicializar con README (ya lo tenemos)
+
+
+# 7. Conectar local con remoto
+
+git remote add origin https://github.com/tu-usuario/TiendaVirtual_GrupoX.git
+
+git branch -M main
+
+git push -u origin main
