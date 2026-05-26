@@ -1,9 +1,8 @@
 # TiendaVirtual_GrupoX
 # 1. Configurar nombre y correo (solo una vez en el computador)
 
-git config --global user.name "Tu Nombre Completo"
-git config --global user.email "tu_correo@gmail.com"
-
+git config --global user.name "Maria Camila Becerra Santisteban"
+git config --global user.email "camilabs1909@gmail.com"
 
 # 2. Crear carpeta del proyecto
 
